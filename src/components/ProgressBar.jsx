@@ -4,6 +4,7 @@ import '../styles/ProgressBar.css';
 const ProgressBar = props => {
   const { progress } = props;
 
+  // Obtengo el arreglo de casilleros y los renderizo con un map, donde si el valor es true lo pinto de verde, sino lo pinto de blanco.
   return (
     <div className='containerStyle'>
       <div className='barStyle'>
