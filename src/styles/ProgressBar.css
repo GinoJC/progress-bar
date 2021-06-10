@@ -1,0 +1,26 @@
+.containerStyle {
+  background-color: #e0e0de;
+  margin: 50px;
+  border-radius: 5px;
+}
+
+.barStyle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loadStyle {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.unloadStyle {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
