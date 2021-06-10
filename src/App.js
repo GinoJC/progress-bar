@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import ProgressBar from './components/ProgressBar';
 import './styles/App.css';
-let interval = undefined;
+var interval;
 
 const App = () => {
   const [progress, setProgress] = useState(0);
